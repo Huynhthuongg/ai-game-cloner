@@ -1,31 +1,58 @@
-# Built things
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+*.tsbuildinfo
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# GameMaker specific (legacy)
 _Debug/
 Compiled/
-
-# AudioCache can be rebuilt from sources
 AudioCache/
-
-# Lockfile
 _OpenInEditor.lock
-
-# User settings
 Game.agf.user
 *.crm.user
-
-# Backups
 Game.agf.bak
 backup_acsprset.spr
-
-# Memory dumps
 *.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
 ~aclzw.tmp
-# temporary, main game data, before getting packed into exe
 game28.dta
-# temporary build of the game before being moved to Compiled/ folder
 *.exe
-
-# Log files
 warnings.log
